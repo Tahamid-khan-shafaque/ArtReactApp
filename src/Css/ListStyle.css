@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@300&display=swap');
+
+
+:root{
+    --mainColor: #8B008B;
+}
+
+header{
+    background-color: var(--mainColor);
+}
+.logo h1{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+    max-width: 1200px;
+  
+   
+}
+
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+   
+  
+}
+
+.list{
+    display: flex;
+    margin-left: 3px;
+}
+.listItem{
+    margin-left: 2em;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+}
+
+.activeItem{
+    color: orange;
+    border-bottom: .1em double #fff;
+}
+
+.icon{
+    color: #fff;
+    font-size: 1.5rem !important;
+    margin-right: 1.6em;
+    margin-left: 2em;
+    margin-bottom: 8px;
+}
+
+/* media queries */
+
+@media screen and (max-width:902px){
+    .icon{
+        margin-left: 1em;
+    }
+}
+
+@media screen and (max-width:902px){
+    html{
+        font-size: 13px;
+    }
+    .container-flex{
+        flex-direction: column;
+    }
+    .icon{
+        margin: 1em 1.5em;
+    }
+}
+
+@media screen and (max-width:452px){
+    html{
+        font-size: 10px;
+    }
+
+    .list{
+        flex-direction: column;
+    }
+    .listItem{
+        margin-top: .2em;
+    }
+}
+
+/* 1.21min */

@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@300&display=swap');
+
+.contact{
+    
+    margin: 2rem auto;
+    background-color: blanchedalmond;
+    width: 40%;
+    
+   
+}
+
+input{
+    width: 100%;
+    padding: .7em;
+    margin-bottom: 1.1em;
+    border: .3em double var(--mainColor);
+    outline: none;
+    font-size: 0.8em;
+    border-radius: 60px;
+    
+}
+label{
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+h3{
+  
+   margin-left: 40%;
+   margin-right: 40%;
+   margin-top: 20px;
+   text-align: center;
+   font-size: 2em;
+   font-family: 'Poppins', sans-serif;
+  
+}
+
+.btnBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.btn{
+    border: 2px solid transparent;
+    border-radius: 2em;
+    background-image: linear-gradient(#fff,#fff),radial-gradient(circle at bottom right,purple,orange);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+   
+
+}

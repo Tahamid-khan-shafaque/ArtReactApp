@@ -1,0 +1,79 @@
+.mainSection{
+    display: flex;
+  
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contentBox{
+    width: 40%;
+ /*    background-color: orange; */
+    padding-left: 1em;
+}
+.contentBox h1{
+    font-size: 2.5rem;
+    color: #301934;
+    text-align: center;
+}
+
+.contentBox p{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btnBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+.btn{
+    border: 2px solid transparent;
+    border-radius: 2em;
+    background-image: linear-gradient(#fff,#fff),radial-gradient(circle at bottom right,purple,orange);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+
+}
+.readMore{
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: .5em 1.5em;
+    text-decoration: none;
+    color: #301934;
+}
+.imgContainer{
+    width: 40%;
+}
+.imgContainer img{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 40px;
+
+}
+
+/* media queries */
+
+@media  screen and (max-width:1000px) {
+    html{
+        font-size: 14px;
+    }
+}
+
+@media  screen and (max-width:806px) {
+    .contentBox h1{
+        font-size: 1.5rem;
+        color: #301934;
+    }
+    .btn{
+        border: 1px solid transparent;
+        border-radius: 1.5em;
+    }
+    .readMore{
+      font-size: 1rem;
+    }
+}
+
